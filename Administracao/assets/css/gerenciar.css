@@ -1,0 +1,82 @@
+﻿*  {
+	margin:0;
+	padding:0;
+}
+ 
+html, body {height:100%;}
+
+body {
+    background: #efede3 url(../../images/bkg.png) repeat 0 -5px;
+}
+
+#administracao-conteudo h4 {
+    margin-bottom: 0;
+}
+
+.adm-breadcrumb {
+    background-color: #fff;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px #777;
+}
+
+.adm-breadcrumb a {
+    color: #000000;
+    transition: 0.5s all;
+}
+.adm-breadcrumb a:hover {
+    color: #A22624;
+    text-decoration: none;
+    transition: 0.5s all;
+}
+
+/* Formtação da tabela que exibe os dados dos registros cadastrados */
+
+.table-responsive {
+    border: none;
+}
+
+#TabelaRegistros_length {
+    text-align: left;
+}
+
+#TabelaRegistros_info {
+    text-align: left;
+}
+
+#TabelaRegistros_paginate {
+    text-align: right;
+}
+
+@media screen and (max-width: 767px)
+{
+    #TabelaRegistros_filter {
+        text-align: left;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    
+    .TabelaRegistros_filter {
+        padding-left: 0px;
+    }
+}
+
+/* Formtação da tabela que exibe os dados dos registros cadastrados */
+
+/* GRIDVIEW */
+.gvCabecalho {
+    padding-left:10px;
+}
+
+/* Formatação do rodapé */
+
+#footer {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    bottom: 0;
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    background-color: #F8F8F8;
+}

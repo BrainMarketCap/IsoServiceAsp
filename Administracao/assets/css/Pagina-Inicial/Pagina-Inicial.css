@@ -1,0 +1,13 @@
+﻿.TextBox {
+    width: 100%;
+    height: 100px;
+    resize: vertical;
+}
+
+@media (max-width: 992px) 
+{
+    .TextBox {
+    height: 180px;
+    resize: none;
+}
+}
